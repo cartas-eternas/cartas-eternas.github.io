@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* =========================
+   Roboto
+   ========================= */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto/roboto-v30-latin-regular.eot);
+  src: url(fonts/Roboto/roboto-v30-latin-regular.eot?#iefix) format('embedded-opentype'),
+       url(fonts/Roboto/roboto-v30-latin-regular.woff2) format('woff2'),
+       url(fonts/Roboto/roboto-v30-latin-regular.woff) format('woff'),
+       url(fonts/Roboto/roboto-v30-latin-regular.ttf) format('truetype'),
+       url(fonts/Roboto/roboto-v30-latin-regular.svg#Roboto) format('svg');
+}
+
+/* =========================
+   Cormorant Garamond
+   ========================= */
+@font-face {
+  font-display: swap;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cormorant/CormorantGaramond-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/Cormorant/CormorantGaramond-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Cormorant/CormorantGaramond-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/Cormorant/CormorantGaramond-BoldItalic.ttf) format('truetype');
+}
+
+/* =========================
+   Tinos (Times-like ❤️)
+   ========================= */
+@font-face {
+  font-display: swap;
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Tinos/Tinos-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Tinos';
+  font-style: italic;
+  font-weight: 400;
+  src: url(fonts/Tinos/Tinos-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Tinos/Tinos-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Tinos';
+  font-style: italic;
+  font-weight: 700;
+  src: url(fonts/Tinos/Tinos-BoldItalic.ttf) format('truetype');
+}

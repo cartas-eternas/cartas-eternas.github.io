@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;3 on Nuestro Rincón Virtual</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in &lt;3 on Nuestro Rincón Virtual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 28 Jan 2026 23:05:23 -0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tu Registro</title>
+      <link>http://localhost:1313/posts/tu-registro/</link>
+      <pubDate>Wed, 28 Jan 2026 23:05:23 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/tu-registro/</guid>
+      
+      <description>&lt;p&gt;Hoy lo hiciste, hoy te registraste&amp;hellip;&lt;br&gt;
+Hoy formalizaste aquello que hace unos meses solo era un posible proyecto, una vaga fantasía, y que inevitablemente, se está convirtiendo en realidad. Podrá ser solo un registro, podrá tratarse solo del llenado de formato y datos estadísticos, pero para mí, cada intención y gesto que haces en el proceso -tomar tus plumas, abrir tu cuaderno, preparar (a pesar de las circunstancias) un lugar más cómodo, encender tus audífonos, y dirigir tu atención hacia algo que te es difícil enfocar- me hace entregarte toda mi admiración.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>El Inicio</title>
+      <link>http://localhost:1313/posts/el-inicio/</link>
+      <pubDate>Wed, 28 Jan 2026 23:04:06 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/el-inicio/</guid>
+      
+      <description>&lt;p&gt;La idea de hacer esto nació en esos momentos en los que te miro, en los que te recuerdo, en los que te veo en muchos rincones de mi vida cotidiana. Momentos en los que quiero escribirte algo, decirte tantas cosas, pero no siempre tengo a la mano un papel donde plasmarlas, o el instante preciso para decírtelas.&lt;/p&gt;
+&lt;p&gt;No soy bueno escribiendo, no soy bueno expresándome, pero simplemente me haces desbordarme de amor, queriendo explotar y decirte cuánto te amo, cuánto te necesito, cuánto me obsesionas, cuánto te admiro, cuánto, cuánto, cuánto&amp;hellip;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

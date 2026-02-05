@@ -1,0 +1,90 @@
+//////////////// 1. Light Colors /////////////////
+$text-base-color: #2b2a2e;
+$text-link-blue: #5a4fcf;
+$text-link-blue-active: #433aa3;
+$bloquote-border: #6a5a78;
+$blockquote-text: #3f3b45;
+$inline-code-text: #2a2730;
+$inline-code-bg: #e1dde6;
+$toc-bg: #ebe7ee;
+$go-top-bg: #c9c3d199;
+$go-top-bg-hover: #c9c3d1;
+
+$black: #120f18;
+$light: #e9e6eb;
+$smoke: #c3bccb;
+$gray: #5a5663;
+$white: #ffffff;
+
+//////////////// 2. Dark Colors /////////////////
+$dark-text-base-color: #b8b4c2;
+$dark-text-link-blue: #8a7dff;
+$dark-text-link-blue-active: #6c5cff;
+$dark-bloquote-border: #3f384a;
+$dark-blockquote-text: #9a93a8;
+$dark-inline-code-text: #d2cfe0;
+$dark-inline-code-bg: #1a1820;
+$dark-toc-bg: #1f1c26;
+$dark-go-top-bg: #4b4457b3;
+$dark-go-top-bg-hover: #4b4457;
+
+$dark-black: #0b0a0f;
+$dark-white: #e6e2ec;
+$dark-light: #15131b;
+$dark-smoke: #3f384a;
+$dark-gray: #6e687a;
+
+//////////////// 3. Fonts preferences /////////////////
+$sans-family: "Tinos", "Cormorant Garamond", "Roboto", sans-serif;
+$mono-family: Consolas, monospace;
+$base-font-size: 18px;
+$medium-font-size: $base-font-size * 0.938;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.85;
+
+// Font weight
+$normal-weight: 400;
+$bold-weight: 700;
+
+//////////////// 4.Responsive design (media queries) /////////////////
+$wide-size: 890px;
+$narrow-size: 720px;
+
+// Padding unit
+$spacing-full: 30px;
+$spacing-half: $spacing-full / 2;
+
+// Screen sizes
+$on-mobile: 768px;
+$on-tablet: 769px;
+$on-desktop: 1024px;
+$on-widescreen: 1152px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+//////////////// 5. Import all sass files /////////////////
+
+@import "fonts";
+@import "base";
+@import "navbar";
+@import "layout";
+@import "post";
+@import "code";
+
+@import "tableOfContent";
+@import "miscellaneous";
+@import "dark";
+@import "listpage";
+@import "custom";
+
+{{ with .Site.Params.goToTop }}
+@import "goToTop";
+{{ end }}
