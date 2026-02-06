@@ -3,7 +3,7 @@ baseURL = 'https://cartas-eternas.github.io/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
-
+	     
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
@@ -102,7 +102,7 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.webmanifest]
   name = "fer-y-angel" # will use "params.sitename" or "title" by default
   short_name = "fer-y-angel" # same as name
-  start_url = "/" # will use homepage url by default
+  start_url = "/cartas-eternas.github.io" # will use homepage url by default
   theme_color = "#FF8000" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
   display = "standalone"
