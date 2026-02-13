@@ -1,4 +1,4 @@
-title = "Nuestro Rincón Virtual"
+title = "Cartas Eternas"
 baseURL = 'https://cartas-eternas.github.io/'
 
 # This is what goes in <html lang="">
@@ -69,12 +69,12 @@ theme = "hugo-blog-awesome"
     weight = 20
 
 [Languages.en-gb.params]
-  sitename = "Nuestro Rincón Virtual <3"
+  sitename = "Cartas Eternas"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "<3"
+  description = ""
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
@@ -94,7 +94,7 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.author]
  # avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   ## Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "❦ Mi Rincón Virtual ❦"
+  intro = "❦ Letras Virtuales ❦"
   name = "Angel y Fer"
   description = "Aquello que no te digo en voz alta, pero que lo encuentras eternamente..."
 

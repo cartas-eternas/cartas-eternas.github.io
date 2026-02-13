@@ -17,7 +17,7 @@
   translation: "Ir al inicio"
 
 - id: "footer.disclaimer"
-  translation: "<3"
+  translation: "Cartas"
 
 ## ERRORS ##
 - id: "errors.404"

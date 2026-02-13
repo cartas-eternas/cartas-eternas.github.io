@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Casa on Nuestro Rincón Virtual</title>
+    <title>Casa on Cartas Eternas</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Casa on Nuestro Rincón Virtual</description>
+    <description>Recent content in Casa on Cartas Eternas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 28 Jan 2026 23:05:23 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Feb 2026 13:15:25 -0600</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer 14 Febrero</title>
+      <link>http://localhost:1313/posts/primer-14-febrero/</link>
+      <pubDate>Fri, 13 Feb 2026 13:15:25 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/primer-14-febrero/</guid>
+      
+      <description>&lt;p&gt;En éste momento, si todo sale bien, estaré abrazándote, tal vez tomándote la pierna, mirándote a los ojos, mirando tu expresión, todo mientras lees ésto. Tal vez te preguntes porqué la fecha marca 13 de Febrero, y es porque dejé esta carta programada para hoy.&lt;/p&gt;
+&lt;p&gt;Este es nuestro primer 14 de Febrero, nuestra primer fecha más especial como pareja. Debo empezar agradeciéndote, agradeciéndote por lo que siempre te he dicho, &lt;strong&gt;por haberme escogido&lt;/strong&gt;, por nunca haberme soltado, pues a pesar de que todo fue difícil para ti, nunca dejaste de ser amable, linda, interesada y transparente conmigo. Tu llegada a mi vida fue inesperada, intrigante en un primer momento (aunque sucumbí). No tenía idea de quién eras, y cuando supe quien eras, no tenía idea en quién te habías convertido.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuestra cita en CU</title>
+      <link>http://localhost:1313/posts/cita-cu/</link>
+      <pubDate>Mon, 09 Feb 2026 20:56:27 -0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/cita-cu/</guid>
+      
+      <description>&lt;p&gt;Sinceramente no sé como me siento, sigo sin entender muchas cosas y sin creer unas tantas más.&lt;/p&gt;
+&lt;p&gt;Todo en mi día fue especial y emocionante: despertarme, bañarme, alistarme, caminar, tomar el transporte; todo, absolutamente todo, porque tu estabas ahí, porque un pensamiento que tuve hace meses (sí, cuando éramos amigos imaginé que tú y yo teníamos una cita en CU) se había hecho realidad. Fue increíble mirarte en la universidad, mirar los pasillos en los que había caminado cientos de veces desde hace más de 2 años, y que a mi lado estuvieras tú, mirando absolutamente todo lo que con fascinación y sorpresa he mirado desde que entré a aquella universidad.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Tu Registro</title>
       <link>http://localhost:1313/posts/tu-registro/</link>
