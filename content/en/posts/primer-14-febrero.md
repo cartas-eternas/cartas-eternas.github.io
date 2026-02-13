@@ -14,6 +14,6 @@ Contigo lo tengo todo; contigo siento las emociones más hirvientes ante el fueg
 Cometo errores y no prometo dejar de cometerlos, pues al final sigo siendo alguien estúpido, pero ¿sabes qué sí puedo prometerte? El esfuerzo constante para acercarme a ser aquel que mereces (y siempre diré acercarme, pues llegar a ser aquel hombre que mereces es imposible).
 
 Te amé ayer, te amo hoy y te amaré el resto de mi vida, cada día con un amor más profundo que el anterior.
-> En medio del conformismo que me ataba a lo común, llegaste tú para revelarme que la autenticidad sí podía tomar la forma exacta de todo lo que siempre soñé.
+> En medio del conformismo que me ataba a lo común, llegaste tú mostrándome aquella autenticidad que encaja con lo que siempre soñé.
 > 
 >-Angel
