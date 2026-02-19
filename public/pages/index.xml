@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Cartas Eternas</title>
-    <link>http://localhost:35803/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Cartas Eternas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="http://localhost:35803/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Void</title>
-      <link>http://localhost:35803/pages/about/</link>
+      <link>http://localhost:1313/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:35803/pages/about/</guid>
+      <guid>http://localhost:1313/pages/about/</guid>
       
       <description></description>
       
