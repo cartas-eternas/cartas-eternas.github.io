@@ -2,6 +2,7 @@
 date = '2026-03-27T22:03:45-06:00'
 draft = false
 title = 'Cuando No Te Escribo'
+author = Angel
 +++
 
 Quisiera que en este momento de nuestra vida, nuestra mayor interacción sea personal, no por mensaje. A pesar de ésto, mientras nuestras vidas se sostengan por WhatsApp y en general, por mensaje, quiero decirte algo que muchas veces me preocupa y me hace sentir que hago las cosas mal contigo.
