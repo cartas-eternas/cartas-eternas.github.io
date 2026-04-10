@@ -1,7 +1,7 @@
 +++
 date = '2026-04-09T22:37:01-06:00'
 draft = false
-title = 'La Belleza en Lo Simple'
+title = 'La Belleza en Lo Simple y las Ardillas'
 +++
 Siguiendo con las ardillas (xd), quiero contarte de algo que creo haber encontrado la forma de decírtelo.
 
@@ -11,4 +11,6 @@ Durante años he buscado aceleradamente cubrir la necesidad que me ha permeado d
 
 Como te dije, siempre he intentado aceleradametne buscar lo más complejo, sin darme cuenta de que en muchos momentos la simpleza es quien asienta la paz, y es cuando quiero prometerte, que ante todo pronóstico, priorizaré contigo la experiencia emocional, y no la material. Y no digo ésto para sugerir que soy materialista, al contrario, soy simple en bienes, pero siempre he pensado que las buenas experiencias surgen de experiencias con matices materialistas, y no es así, pues contigo me he dado cuenta, que esos momentos sencillos pero naturales y auténticos son los que merecen ser dibujados en mi cuaderno de vida. 
 
-Así que gracias, gracias Fernanda, por hacerme entender que mi compañía vale, mis abrazos valen, mis besos y caricias valen, sin tener que depender de salidas elaboradas. De ti aprendo a ver la belleza a partir de lo cotidiano, porque aunque no lo notes, tu siempre muestras una sonrisa ante tu monotonía. Encuentras lo virtuoso en cosas simples pero complejas como la música, como en una flor, en una carta, en un mensaje, un dibujo..., _y todo esto lo descubrí en una familia de ardillas_.
+Así que gracias, gracias Fernanda, por hacerme entender que mi compañía vale, mis abrazos valen, mis besos y caricias valen, sin tener que depender de salidas elaboradas. De ti aprendo a ver la belleza a partir de lo cotidiano, porque aunque no lo notes, tu siempre muestras una sonrisa ante tu monotonía. Encuentras lo virtuoso en cosas simples pero complejas como la música, como en una flor, en una carta, en un mensaje, un dibujo...
+
+Se me acabó la tinta mental, me desconcentré, pero que sepas que todo ésto lo pensé, _a partir de una familia de ardillas..._
