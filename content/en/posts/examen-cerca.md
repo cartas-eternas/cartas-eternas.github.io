@@ -1,6 +1,6 @@
 +++
 date = '2026-05-26T19:48:39-06:00'
-draft = true
+draft = false
 title = 'Examen Cerca'
 +++
 
