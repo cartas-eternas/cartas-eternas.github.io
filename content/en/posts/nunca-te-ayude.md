@@ -1,7 +1,7 @@
 +++
 date = '2026-05-26T20:03:18-06:00'
 draft = false
-title = 'Nunca Te Ayude'
+title = 'Y Nunca Te Ayude...'
 +++
 
 He tenido un gran nudo en la garganta desde hace semanas, meses incluso, y es relacionado a lo que signifiqué en tu etapa de estudio para el examen. Recuerdo que cuando éramos amigos, amé la idea de ayudarte. Tal vez pienses que soy un enfermo (aunque lo soy por ti), pero siendo amigos, cuando comenzabas a estudiar para la Normal, me imaginé que mediante la ayuda que te podía dar estudiando, te conquistaba. Volviendo a lo que quería decirte, me hace sentir terrible saber que, no te he ayudado a estudiar...
