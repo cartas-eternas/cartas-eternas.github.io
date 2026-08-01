@@ -14,4 +14,4 @@ Felicidades mi amor, felicidades.
 
 Mientras escribo ésto, imagino un momento futuro en el que, mientras estamos en tu graduación, vemos hacia atrás todos los miles de peldaños que superaste para llegar hasta ese punto. Así será mi amor, así será...
 
-![PRUEBA DE IMAGEN](/static/images/animo-gente.jpg)
+![Prueba](/images/animo-gente.jpg)
