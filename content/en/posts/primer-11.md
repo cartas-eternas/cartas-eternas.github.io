@@ -7,7 +7,7 @@ Mi niña, faltan unos días para que lleguemos al esperado 17, pero no quería d
 Agradezco cada día de mi vida por permitirme tener a alguien que me haga sentir (porfin) valioso y capaz. A alguien que no me haga sentir estúpido por sentir mucho, y que se preocupe por mi. No te amo por lo que me haces creer que soy, te amo por dejarme ser quien realmente soy: un obsesionado, un interesado, un adicto, un payaso, y en ocasiones (sigo trabajando en ello), un idiota e inmaduro.
 Gracias por haberme grabado ese 11 de agosto de 2025 en mis más profundos recuerdos. 
 
-Te amo Maria Fernanda, eres esa coincidencia de la que cada día agradezco al azar por habermela puesto enfrente.
+Te amo Maria Fernanda, eres la coincidencia de la que cada día le agradezco al azar.
 
 
 > Fer,
