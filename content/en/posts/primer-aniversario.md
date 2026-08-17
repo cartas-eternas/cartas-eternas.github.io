@@ -20,3 +20,6 @@ Hubiera querido que mientras leas esto también pensaras en que te pondrías ma�
 Te amo Fernanda, te amo eternamente, aquellos votos que te dí la primer semana no fueron en vano, pues toda tu vida tendrás la mayor de mi transparencia y sinceridad, acompañadas de mi obsesivo amor e interés.
 
 > Angel
+
+![Niños](/images/niños.jpg)
+![Ahora](/images/ahora.jpg)
