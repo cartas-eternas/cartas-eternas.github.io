@@ -19,3 +19,5 @@ Ahora es tu momento mi amor, ahora es finalmente el inicio de esta maravillosa y
 Por mi parte te prometo con mi sangre que, siempre te acercaré a este enorme mundo listo para ti,  siempre te ayudaré en las materias que pueda, siempre te impulsaré a no desistir, siempre te brindaré distracciones que necesitarás para no llegar al agotamiento total, siempre te llevaré a aprender habilidades que te harán brillar, y realmente, *siempre te llevaré a concoerte a ti misma y de lo que eres capaz*. 
 
 Te admiro, realmente te admiro tanto, te amo por supuesto, pero mi mente jamás olvidará todo lo que te costó llegar hasta aquí. Felicidades por ésto, felicidades por lo que viene, y felicidades por lo que superaste y superarás.
+
+Nuevamente, aquí empieza el edificio de tu vida...
