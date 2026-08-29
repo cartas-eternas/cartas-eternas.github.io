@@ -1,5 +1,5 @@
 +++
-date = '2026-08-16T23:26:15-06:00'
+date = '2026-08-17T23:26:15-06:00'
 draft = false
 title = 'Nuestro Primer Aniversario'
 +++
