@@ -2,10 +2,7 @@ import { defineConfig } from 'astro/config';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-// Si lo subes a un dominio propio, agrega: site: 'https://tudominio.com'
 export default defineConfig({
-  markdown: {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex],
-  },
+  site: 'https://cartas-eternas.github.io',
+  markdown: { /* lo que ya tienes */ },
 });
