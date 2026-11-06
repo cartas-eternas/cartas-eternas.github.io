@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CartaRow from '../../components/CartaRow.astro';
+const cartas = (await getCollection('cartas', ({ data }) => !data.borrador)).sort((a, b) => +b.data.fecha - +a.data.fecha);
+---
+<Base title="Cartas">
+  <section class="encabezado">
+    <h1>Cartas</h1>
+    <p>{cartas.length} {cartas.length === 1 ? 'carta guardada' : 'cartas guardadas'}, de la más reciente a la primera.</p>
+  </section>
+  <div class="lista">
+    {cartas.length ? cartas.map((c) => <CartaRow carta={c} />) : <p class="vacio">Aún no hay cartas. Crea un archivo .md en src/content/cartas.</p>}
+  </div>
+</Base>

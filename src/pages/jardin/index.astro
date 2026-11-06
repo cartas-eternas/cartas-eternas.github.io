@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import FlorCard from '../../components/FlorCard.astro';
+import { luzTexto } from '../../utils';
+const flores = (await getCollection('jardin')).sort((a, b) => a.data.nombre.localeCompare(b.data.nombre, 'es'));
+const filtros = [['todas', 'Todas'], ...Object.entries(luzTexto)];
+---
+<Base title="Jardín" description="Flores para el jardín que vamos a tener.">
+  <section class="encabezado">
+    <h1>Jardín</h1>
+    <p>Flores que queremos tener, con lo que necesitan para vivir bien.</p>
+  </section>
+
+  <div class="filtros" role="group" aria-label="Filtrar por luz">
+    {filtros.map(([v, t], i) => <button type="button" data-filtro={v} aria-pressed={i === 0 ? 'true' : 'false'}>{t}</button>)}
+  </div>
+
+  <div class="rejilla" id="rejilla">{flores.map((f) => <FlorCard flor={f} />)}</div>
+  <p class="vacio" id="vacio" hidden>No hay flores con esa luz todavía.</p>
+</Base>
+
+<script>
+  const botones = document.querySelectorAll<HTMLButtonElement>('[data-filtro]');
+  const fichas = document.querySelectorAll<HTMLElement>('#rejilla .ficha');
+  const vacio = document.getElementById('vacio')!;
+  botones.forEach((b) =>
+    b.addEventListener('click', () => {
+      const f = b.dataset.filtro;
+      botones.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+      let visibles = 0;
+      fichas.forEach((el) => {
+        const ok = f === 'todas' || el.dataset.luz === f;
+        el.hidden = !ok;
+        if (ok) visibles++;
+      });
+      vacio.hidden = visibles > 0;
+    })
+  );
+</script>

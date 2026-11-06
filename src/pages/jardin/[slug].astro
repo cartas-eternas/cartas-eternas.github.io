@@ -1,0 +1,63 @@
+---
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Gotas from '../../components/Gotas.astro';
+import { luzTexto } from '../../utils';
+
+export async function getStaticPaths() {
+  const flores = await getCollection('jardin');
+  return flores.map((flor) => ({ params: { slug: flor.id }, props: { flor } }));
+}
+const { flor } = Astro.props;
+const d = flor.data;
+const { Content } = await render(flor);
+const datos = [
+  ['Luz', luzTexto[d.luz]],
+  ['Riego', d.riego],
+  ['Origen', d.origen],
+  ['Floración', d.floracion],
+  ['Altura', d.altura],
+  ['Dificultad', d.dificultad],
+];
+---
+<Base title={d.nombre} description={d.descripcion}>
+  <article class="lamina">
+    <a class="volver" href="/jardin">Volver al jardín</a>
+    <header>
+      <h1>{d.nombre}</h1>
+      <p class="cientifico">{d.cientifico}</p>
+      <p class="lead">{d.descripcion}</p>
+      <ul class="colores">{d.colores.map((c) => <li>{c}</li>)}</ul>
+    </header>
+
+    {d.foto && (
+      <figure class="lamina-foto">
+        <div class="foto">
+          <Image src={d.foto} alt={d.fotoAlt ?? d.nombre} widths={[600, 900, 1200]} sizes="(min-width: 44rem) 44rem, 100vw" loading="eager" />
+        </div>
+        {d.fotoCredito && <figcaption>{d.fotoCredito}</figcaption>}
+      </figure>
+    )}
+
+    <dl class="datos">
+      {datos.map(([k, v]) => (
+        <div>
+          <dt>{k}</dt>
+          <dd>
+            {k === 'Luz' && <span class="luz" data-luz={d.luz}></span>}
+            {v}
+            {k === 'Riego' && <Gotas nivel={d.riego} />}
+          </dd>
+        </div>
+      ))}
+    </dl>
+
+    <section>
+      <h2>Cuidados</h2>
+      <ul class="cuidados">{d.cuidados.map((c) => <li>{c}</li>)}</ul>
+    </section>
+
+    <div class="prosa"><Content /></div>
+  </article>
+</Base>

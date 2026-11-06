@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import Gotas from './Gotas.astro';
+import { luzTexto } from '../utils';
+interface Props { flor: CollectionEntry<'jardin'> }
+const { flor } = Astro.props;
+const d = flor.data;
+---
+<a class="ficha" href={`/jardin/${flor.id}`} data-luz={d.luz}>
+  <div class="foto">
+    {d.foto
+      ? <Image src={d.foto} alt={d.fotoAlt ?? d.nombre} widths={[320, 480, 640]} sizes="(min-width: 640px) 16rem, 100vw" loading="lazy" />
+      : <span class="foto-vacia" aria-hidden="true">{d.nombre[0]}</span>}
+  </div>
+  <div class="ficha-cuerpo">
+    <h3>{d.nombre}</h3>
+    <p class="cientifico">{d.cientifico}</p>
+    <p>{d.descripcion}</p>
+    <p class="meta">
+      <span class="luz" data-luz={d.luz}></span>{luzTexto[d.luz]}
+      <Gotas nivel={d.riego} />
+    </p>
+  </div>
+</a>

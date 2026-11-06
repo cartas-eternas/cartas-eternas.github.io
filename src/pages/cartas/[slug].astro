@@ -1,0 +1,28 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { fmtFecha } from '../../utils';
+
+export async function getStaticPaths() {
+  const cartas = (await getCollection('cartas', ({ data }) => !data.borrador)).sort((a, b) => +a.data.fecha - +b.data.fecha);
+  return cartas.map((carta, i) => ({
+    params: { slug: carta.id },
+    props: { carta, anterior: cartas[i - 1], siguiente: cartas[i + 1] },
+  }));
+}
+const { carta, anterior, siguiente } = Astro.props;
+const { Content } = await render(carta);
+---
+<Base title={carta.data.titulo} description={carta.data.resumen}>
+  <article class="hoja">
+    <header>
+      <time datetime={carta.data.fecha.toISOString()}>{fmtFecha(carta.data.fecha)}</time>
+      <h1>{carta.data.titulo}</h1>
+    </header>
+    <div class="prosa"><Content /></div>
+  </article>
+  <nav class="pasar" aria-label="Otras cartas">
+    {anterior ? <a href={`/cartas/${anterior.id}`}>Anterior: {anterior.data.titulo}</a> : <span />}
+    {siguiente ? <a href={`/cartas/${siguiente.id}`}>Siguiente: {siguiente.data.titulo}</a> : <span />}
+  </nav>
+</Base>

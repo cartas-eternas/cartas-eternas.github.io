@@ -1,0 +1,8 @@
+---
+interface Props { nivel: 'bajo' | 'medio' | 'alto' }
+const { nivel } = Astro.props;
+const n = { bajo: 1, medio: 2, alto: 3 }[nivel];
+---
+<span class="gotas" role="img" aria-label={`Riego ${nivel}`}>
+  {[1, 2, 3].map((i) => <i class:list={{ on: i <= n }}></i>)}
+</span>

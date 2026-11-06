@@ -1,5 +1,0 @@
----
-title: Void
-description: ''
-author: 
----

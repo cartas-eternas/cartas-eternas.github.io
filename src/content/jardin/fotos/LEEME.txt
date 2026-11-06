@@ -1,0 +1,5 @@
+Guarda aquí las fotos de las flores (jpg, png o webp).
+Luego, en el .md de la flor, agrega:
+foto: "./fotos/lavanda.jpg"
+fotoAlt: "Lavanda en flor"
+fotoCredito: "Foto: nombre del autor / Unsplash"   (opcional)

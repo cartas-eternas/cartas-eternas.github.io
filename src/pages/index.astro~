@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import CartaRow from '../components/CartaRow.astro';
+import FlorCard from '../components/FlorCard.astro';
+
+const cartas = (await getCollection('cartas', ({ data }) => !data.borrador)).sort((a, b) => +b.data.fecha - +a.data.fecha);
+const flores = (await getCollection('jardin')).filter((f) => f.data.favorita).slice(0, 3);
+---
+<Base>
+  <section class="hero">
+    <h1>Todo lo que te escribo se queda aquí.</h1>
+    <p>Cartas para leer cuando quieras, y un jardín donde guardamos las flores que algún día vamos a sembrar juntos.</p>
+  </section>
+
+  <section class="bloque">
+    <div class="bloque-cab"><h2>Últimas cartas</h2><a href="/cartas">Ver todas</a></div>
+    <div class="lista">{cartas.slice(0, 3).map((c) => <CartaRow carta={c} />)}</div>
+  </section>
+
+  <section class="bloque">
+    <div class="bloque-cab"><h2>Del jardín</h2><a href="/jardin">Ver todo el jardín</a></div>
+    <div class="rejilla">{flores.map((f) => <FlorCard flor={f} />)}</div>
+  </section>
+</Base>

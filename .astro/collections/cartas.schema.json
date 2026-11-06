@@ -1,0 +1,50 @@
+{
+  "$ref": "#/definitions/cartas",
+  "definitions": {
+    "cartas": {
+      "type": "object",
+      "properties": {
+        "titulo": {
+          "type": "string"
+        },
+        "fecha": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "resumen": {
+          "type": "string",
+          "default": ""
+        },
+        "destacada": {
+          "type": "boolean",
+          "default": false
+        },
+        "borrador": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "titulo",
+        "fecha"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

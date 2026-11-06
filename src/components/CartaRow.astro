@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { fmtFecha } from '../utils';
+interface Props { carta: CollectionEntry<'cartas'> }
+const { carta } = Astro.props;
+---
+<a class="carta-row" href={`/cartas/${carta.id}`}>
+  <time datetime={carta.data.fecha.toISOString()}>{fmtFecha(carta.data.fecha)}</time>
+  <span>
+    <strong>{carta.data.titulo}</strong>
+    <span class="resumen">{carta.data.resumen}</span>
+  </span>
+</a>

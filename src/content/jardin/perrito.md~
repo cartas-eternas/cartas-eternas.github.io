@@ -1,0 +1,19 @@
+---
+nombre: "Girasol"
+cientifico: "Helianthus annuus"
+luz: "sol"
+riego: "medio"
+origen: "América del Norte"
+floracion: "Verano"
+altura: "1 a 3 m"
+colores: ["amarillo", "naranja"]
+dificultad: "fácil"
+descripcion: "Alegre, alto y agradecido. Crece rápido desde semilla y sigue la luz durante su juventud."
+cuidados:
+  - "Pleno sol, sin excusas."
+  - "Siembra directa en tierra tras las últimas heladas."
+  - "Riego profundo y espaciado una vez que echa raíz."
+  - "Las variedades altas agradecen un tutor o pared que las proteja del viento."
+favorita: true
+---
+Las semillas pueden cosecharse al final del verano o dejarse para las aves. Es una buena primera siembra para hacer juntos.
