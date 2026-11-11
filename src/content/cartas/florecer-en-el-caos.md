@@ -17,4 +17,4 @@ Reconocer la belleza de unos lirios requiere segundos, pues es tan trivial como 
 
 Así, siempre elegiré cuidar a esa flor que nunca se rindió, tan compleja y fantástica por dentro, y no a la orquídea con aroma a dulce...
 
-> E increíblemente, esa flor también resultó tener un aroma delicioso, con colores fantásticos y vívidos. 
+> E increíblemente, esa flor también resultó tener un aroma delicioso, con los colores más vívidos y únicos. 
